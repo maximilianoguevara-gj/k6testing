@@ -12,6 +12,7 @@ export const options = {
       options: {
         browser: {
           type: 'chromium',
+          args: ['no-sandbox'],
         }
       }
     },
